@@ -67,7 +67,7 @@ class main {
     
                     String formater = column1Format + " " + column1Format + " " + column1Format + " " + column1Format;
     
-                    System.out.format(formater, studentid.get(i), fullname.get(i), college.get(i), program.get(i));
+                    System.out.format(formater, studentid.get(i).toUpperCase(), fullname.get(i).toUpperCase(), college.get(i).toUpperCase(), program.get(i).toUpperCase());
                     System.out.println();
             }
             break;
